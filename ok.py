@@ -1,6 +1,5 @@
 n=input("введите число ")
-if type(n) != int:
-    exit()
+
 a=24
 f=n//60
 n%=60
