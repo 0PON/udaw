@@ -1,7 +1,7 @@
 import time
-a=int(input("введите часы"))
-b=int(input("введите минуты"))
-c=int(input("введите секунды"))
+a=int(input("введите часы "))
+b=int(input("введите минуты "))
+c=int(input("введите секунды "))
 while True:
     if b >= 60:
         a+=1
