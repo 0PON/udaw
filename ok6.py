@@ -1,11 +1,13 @@
-# №1) s=input()
-# if s.find("борщ") !=-1:
-#    print("да")
-# else:
-#    print("нет")
-# print(input().count(' ')+1)
-
-a=input()
-c=a[0:a.find(" ")]
-d=a[a.find(" ")+1:len(a)]
-print(d,c)
+# a = 0
+# b = input()
+# for k in b.split():
+#    if a % 2 == 0:
+#       print(k)
+#    a += 1
+list=input().split()
+h=int(input())
+a=0
+for k in range (len(list)):
+    if int(list[k]) >= h:
+        a+=1
+print(a+1)
