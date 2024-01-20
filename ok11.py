@@ -5,12 +5,12 @@ class Car:
         print("speed up1")
     def refuel(self):
         print("refuel1")
-class lorry(Car):
+class Lorry(Car):
     def park(self):
         print("park2")
     def speedup(self):
         print("not speed up2")
-    def refual(self):
+    def refuel(self):
         print("refuel2")
 class bike(Car):
     def park(self):
@@ -22,9 +22,9 @@ class bike(Car):
 
 
 a=Car()
-b=lorry()
+b=Lorry()
 c=bike()
 
 a.park()
-b.refual()
+b.refuel()
 c.speedup()
